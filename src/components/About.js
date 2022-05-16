@@ -19,7 +19,7 @@ function About() {
           Kurama Airlines
         </span>{" "}
         believe in serving our customers with the grace and sanctity. Founded by
-        Veedee and Derc0 in 2021, our esteemed organisation prides in industry
+        Veedee and Derco in 2021, our esteemed organisation prides in industry
         leading flights in terms of comfort and hospitality while being
         economical and affordable.
       </p>

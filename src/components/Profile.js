@@ -1,6 +1,41 @@
+// import { PDFDownloadLink } from "@react-pdf/renderer";
 import React from "react";
 import { Container, Row, Col, Form } from "react-bootstrap";
 import DefaultUserPic from "../images/team-male.jpg";
+// import Pdf from "./Pdf/Pdf";
+import PdfWithQRGenerator from "./Pdf/PdfWithQRGenerator";
+
+// function downloadTicket() {
+//   return (
+//     <PDFDownloadLink document={<Pdf />} fileName="TestPdf">
+//     {({blob, url, loading, error}) => 
+//       loading ? (
+//         <button
+//         type="button"
+//         className="btn btn-primary container"
+//         style={{
+//           fontFamily: "inherit",
+//           borderRadius: "8px",
+//           width: "10rem",
+//         }}>
+//         Loading...
+//       </button> 
+//       ) : (
+//         <button
+//         type="button"
+//         className="btn btn-primary container"
+//         style={{
+//           fontFamily: "inherit",
+//           borderRadius: "8px",
+//           width: "10rem",
+//         }}>
+//         Download Now
+//       </button>
+//       )
+//     }
+//     </PDFDownloadLink>
+//   );
+// }
 
 function Profile() {
   return (
@@ -66,7 +101,7 @@ function Profile() {
                     type="button"
                     className="btn btn-primary mt-4"
                     style={{ fontFamily: "inherit", borderRadius: "8px" }}>
-                    Change Image
+                    Update Profile
                   </button>
                 </Col>
               </Form>
@@ -102,6 +137,7 @@ function Profile() {
             <th>Arrival Time</th>
             <th>Arrival Location</th>
             <th>Airline Company</th>
+            <th>Ticket</th>
           </tr>
           <tr>
             <td>01/01/2022</td>
@@ -111,6 +147,8 @@ function Profile() {
             <td>03:35 P.M.</td>
             <td>Zurich (ZRH)</td>
             <td>Lufthansa</td>
+            {/* <td>{downloadTicket()}</td> */}
+            <td>{PdfWithQRGenerator()}</td>
           </tr>
           <tr>
             <td>01/01/2022</td>
@@ -120,6 +158,8 @@ function Profile() {
             <td>03:35 P.M.</td>
             <td>Zurich (ZRH)</td>
             <td>Lufthansa</td>
+            <td>{PdfWithQRGenerator()}</td>
+            {/* <td>{downloadTicket()}</td> */}
           </tr>
           <tr>
             <td>01/01/2022</td>
@@ -129,6 +169,8 @@ function Profile() {
             <td>03:35 P.M.</td>
             <td>Zurich (ZRH)</td>
             <td>Lufthansa</td>
+            <td>{PdfWithQRGenerator()}</td>
+            {/* <td>{downloadTicket()}</td> */}
           </tr>
           <tr>
             <td>01/01/2022</td>
@@ -138,6 +180,8 @@ function Profile() {
             <td>03:35 P.M.</td>
             <td>Zurich (ZRH)</td>
             <td>Lufthansa</td>
+            <td>{PdfWithQRGenerator()}</td>
+            {/* <td>{downloadTicket()}</td> */}
           </tr>
           <tr>
             <td>01/01/2022</td>
@@ -147,6 +191,8 @@ function Profile() {
             <td>03:35 P.M.</td>
             <td>Zurich (ZRH)</td>
             <td>Lufthansa</td>
+            <td>{PdfWithQRGenerator()}</td>
+            {/* <td>{downloadTicket()}</td> */}
           </tr>
           <tr>
             <td>01/01/2022</td>
@@ -156,6 +202,8 @@ function Profile() {
             <td>03:35 P.M.</td>
             <td>Zurich (ZRH)</td>
             <td>Lufthansa</td>
+            <td>{PdfWithQRGenerator()}</td>
+            {/* <td>{downloadTicket()}</td> */}
           </tr>
           <tr>
             <td>01/01/2022</td>
@@ -165,6 +213,8 @@ function Profile() {
             <td>03:35 P.M.</td>
             <td>Zurich (ZRH)</td>
             <td>Lufthansa</td>
+            <td>{PdfWithQRGenerator()}</td>
+            {/* <td>{downloadTicket()}</td> */}
           </tr>
           <tr>
             <td>01/01/2022</td>
@@ -174,6 +224,8 @@ function Profile() {
             <td>03:35 P.M.</td>
             <td>Zurich (ZRH)</td>
             <td>Lufthansa</td>
+            <td>{PdfWithQRGenerator()}</td>
+            {/* <td>{downloadTicket()}</td> */}
           </tr>
           <tr>
             <td>01/01/2022</td>
@@ -183,6 +235,8 @@ function Profile() {
             <td>03:35 P.M.</td>
             <td>Zurich (ZRH)</td>
             <td>Lufthansa</td>
+            <td>{PdfWithQRGenerator()}</td>
+            {/* <td>{downloadTicket()}</td> */}
           </tr>
         </table>
       </div>
